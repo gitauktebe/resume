@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;0,700;1,300;1,400&display=swap'); 
+
+body {
+    font-size: 16px;
+    font-family: "Ubuntu", sans-serif;
+    background-color: rgb(0 141 185);
+    color: #000;
+    
+}
+
+.container {
+    max-width: 740px;
+    margin: auto;
+}
+ .firstp {
+    font-style: italic;
+    
+ }
+
+ .secondp {
+
+ }
+
+ span {
+    
+ }
+
+ .top {
+    padding: 10px;
+    border: 2px solid #f1601c;
+    background-color: antiquewhite;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin-top: 10px;
+    display: flex;
+    
+    
+    
+}
+
+@media (max-width: 640px) {
+    .top {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+
+
+    }
+    .top__link-row {
+       flex-direction: column   ;
+    }
+}
+.top__img {
+  
+}
+
+.top__block {
+    padding-left: 10px;
+    
+}
+.top__img img {
+    border-radius: 10px;
+    width: 200px;
+  
+}
+.top__title {
+    
+}
+.top__text {
+    
+
+}
+.top__links {
+    
+    
+}
+
+.top__link-row {
+    display: flex;
+}
+
+.top__links a {
+    text-decoration: none;
+    color: #000;
+    padding: 0px 10px;
+}
+
+.hobby {
+    border: 2px solid #f1601c;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    
+}
+.hobby ol {
+    list-style: disc;
+    padding-left: 20px;
+    
+}
+.hobby ul li {
+    max-width: 90px;
+    padding: 5px 10px;
+}
+
+.hobby ul li:nth-child(even):hover {
+    font-size: 20px;
+    color: #fff;
+    background: rgb(0 141 185);
+    transition-duration: 0.3s;
+    border-radius: 5px;
+
+    
+}
+.hobby ul li:nth-child(odd):hover {
+    font-size: 20px;
+    color: #fff;
+    background: #f1601c;
+    transition-duration: 0.3s;
+    border-radius: 5px;
+
+    
+}
+
+.job {
+    border: 2px solid #f1601c;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+.contact {
+    border: 2px solid #f1601c;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+.contact h2 {
+    text-align: center;
+}
+.contact label {
+    display: block;
+}
+
+.contact input, .contact textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #f1601c;
+    padding: 15px 0px 10px;
+    outline: none;
+    font-family: inherit;
+}
+
+.link {
+
+}
+
+.link:active {
+    color: rgb(0 141 185);
+}
+
+.link:visited {
+    color: rgb(0 141 185);
+}
+
+.link:hover {
+    color: #f1601c;
+}
+
+.btn {
+    background: #f1601c;
+    border: none;
+    border-radius: 5px;
+    padding: 4px 8px;
+    font-size: 15px;
+    font-weight: 400;
+    color: antiquewhite;
+    font-family: inherit;
+    cursor: pointer;
+
+
+}
+.btn:hover {
+    background-color: rgb(0 141 185);
+    color: #fff;
+}
+
+.hobby__list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+   
+
+}
+.hobby__list li {
+    margin-bottom: 10px;
+    
+}
+
+
+.job__table {
+    width: 100%;
+    text-align: center;
+}
+
+
+.job__table tbody tr:hover {
+    background-color: #f1601c;
+    color: #fff;
+}
+
+
+.form {
+}
+.form__row {
+    display: flex;
+    
+    
+}
+.form__item {
+    flex: 1 1 50%;
+    margin: 0px 10px;
+}
+.form__message {
+    padding: 10px;
+}
+.btn {
+    display: inline-block;
+    width: 49%;
+    padding: 10px 0px;
+}
+
