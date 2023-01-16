@@ -1,79 +1,105 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="resume, intern, web developer">
     <meta name="description" content="Мое первою резюме">
+    <link rel="stylesheet" href="/css/style.css">
     <title>Resume</title>
 </head>
 <body>
-    <img src="img/avatar.jpg" alt="Фото скоро загрузится" width="150px">
-    <h1>Иванов Сергей</h1>
-    <p><em>Всем привет, меня зовут Сергей и это мой первый сайт-резюме!</em><br>Я очень хочу выучиться програмированию и поменять порфессиию, <strong>надеюсь</strong> с вами, у меня все получится!</p>
-    <p><strong>Мои Социальные сети</strong> (у меня их нет, по этому вот так)</p>
-    <p><a href="https://vk.com" target="_blank">Вконтакте</a></p>
-    <p><a href="https://youtube.com" target="_blank">Ютубчик</a></p>
-    <p><a href="https://instagram.com" target="_blank">Инстаграмчик</a></p>
-    <hr>
-    <h2>Хобби</h2>
-    <ul>
-        <li>Покер</li>
-        <li>Спорт</li>
-        <li>Читать</li>
-        <li>Гулять</li>
-        <li>Стендап</li>
-    </ul>
-    <h2>3 пункта зачем мне новая профессия</h2>
-    <ol>
-        <li>Развиваться лучше чем сидеть на месте</li>
-        <li>Карьерный рост</li>
-        <li>Люблю компы</li>
-    </ol>
-    <hr>
-    <h2>Опыт работы</h2>
-    <table>
-        <thead>
-            <tr>
-                <th>Место работы</th>
-                <th>Должность</th>
-                <th>Трудовой стаж</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Школа</td>
-                <td>Учитель</td>
-                <td>11 лет</td>
-            </tr>
-            <tr>
-                <td>Интернет</td>
-                <td>Фрилансер</td>
-                <td>2 месяца</td>
-            </tr>
-        </tbody>
-    </table>
-    <hr>
-    <h2>Связаться со мной</h2>
-    <form action="#">
-        <div>
-            <label for="name"><strong>Ваше имя:</strong></label>
-            <input type="text" id="name" placeholder="Введите ваше имя">
+    <div class="container">
+        <div class="top">
+
+            <div class="top__img">
+                <a><img src="img/avatar.jpg" alt="Фото скоро загрузится"></a>
+            </div>
+            <div class="top__block">
+                <div class="top__title">
+                    <h1>Иванов Сергей</h1>
+                </div>
+
+                <div class="top__text">
+                    <p class="firstp"><span>Всем привет, меня зовут Сергей и это мой первый сайт-резюме!</span><br>Я очень хочу выучиться програмированию и поменять порфессиию, <span>надеюсь</span> с вами, у меня все получится!</p>
+                </div>
+
+                <div class="top__links">
+                    <h4 class="secondp"><span>Мои Социальные сети</span> (у меня их нет, по этому вот так)</h3>
+                    <div class="top__link-row">
+                        <p><a href="https://vk.com" target="_blank" class="link">Вконтакте</a></p>
+                        <p><a href="https://youtube.com" target="_blank" class="link">Ютубчик</a></p>
+                        <p><a href="https://instagram.com" target="_blank" class="link">Инстаграмчик</a></p>
+                    </div>
+                </div>
+            </div>
         </div>
-        <br>
-        <div>
-            <label for="email"><strong>Ваш email:</strong></label>
-            <input type="email" id="email" placeholder="Введите ваш email">
+        <div class="cards">
+            <div class="hobby">
+                    <h2>Хобби</h2>
+                    <ul class="hobby__list">
+                        <li>Покер</li>
+                        <li>Спорт</li>
+                        <li>Читать</li>
+                        <li>Гулять</li>
+                        <li>Стендап</li>
+                    </ul>
+                    <h2>3 пункта зачем мне новая профессия</h2>
+                    <ol class="hobby__list">
+                        <li>Развиваться лучше чем сидеть на месте</li>
+                        <li>Карьерный рост</li>
+                        <li>Люблю компы</li>
+                    </ol>
+            </div>
+
+            <div class="job">
+                <h2>Опыт работы</h2>
+                <table class="job__table">
+                    <thead>
+                        <tr>
+                            <th>Место работы</th>
+                            <th>Должность</th>
+                            <th>Трудовой стаж</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Школа</td>
+                            <td>Учитель</td>
+                            <td>11 лет</td>
+                        </tr>
+                        <tr>
+                            <td>Интернет</td>
+                            <td>Фрилансер</td>
+                            <td>2 месяца</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="contact">
+                <h2>Связаться со мной</h2>
+                <form action="#" class="form">
+                    <div class="form__row">
+                        <div class="form__item">
+                            <label for="name">Ваше имя:</label>
+                            <input type="text" id="name" placeholder="Введите ваше имя">
+                        </div>
+                        <div class="form__item">
+                            <label for="email">Ваш email:</label>
+                            <input type="email" id="email" placeholder="Введите ваш email">
+                        </div>
+                    </div>
+                    <div class="form__message">
+                        <label for="message">Сообщенеи</label>
+                        <textarea name="message" id="message" cols="21" rows="3" placeholder="Введите сообщение..." ></textarea>
+                    </div>
+                    <button type="submit" class="btn">Отправить!</button>
+                    <button type="reset" class="btn">Очистить!</button>
+                </form>
+            </div>
         </div>
-        <br>
-        <div>
-            <label for="message"><strong>Сообщенеи</strong></label>
-            <br>
-            <textarea name="message" id="message" cols="20" rows="3" placeholder="Введите сообщение..." ></textarea>
-        </div>
-        <button type="submit">Отправить!</button>
-        <button type="reset">Очистить!</button>
-    </form>
+    </div>
 </body>
 </html>
