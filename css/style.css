@@ -47,7 +47,7 @@ body {
 
     }
     .top__link-row {
-       flex-direction: column;
+       flex-direction: column   ;
     }
 }
 .top__img {
@@ -233,3 +233,6 @@ body {
     padding: 10px 0px;
 }
 
+.btn {
+    background-image: url(https://abrakadabra.fun/uploads/posts/2022-01/1641093872_1-abrakadabra-fun-p-nezhno-rozovoe-nebo-2.jpg;);
+}
